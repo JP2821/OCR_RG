@@ -30,4 +30,8 @@ Este sistema utiliza inteligência artificial para extrair informações de docu
 
 ---
 
-Esse README explica o funcionamento do sistema de verificação de CPF em documentos de identidade, detalhando cada etapa do processo e fornecendo instruções sobre como configurar e utilizar o sistema.
+## Features 
+1. Detecção de RG na imagem para posterior centralização e garantir a integridade dos dados [...]
+2. Deixar o modelo dinâmico para que o usuário apenas insira o tipo de documento e a IA se comporte para extrair os dados com máxima precisão [ ]
+3. Interface UI []
+4. OCR de proposito geral []
