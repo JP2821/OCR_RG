@@ -38,7 +38,8 @@ def validationCpf(cpf):
   # Se passou por todas as verificações, o CPF é válido
   return True   
 
-gemini.configure(api_key='AIzaSyD29yMiwFi_8JJKFnJGCgRGneCP2y50WRg')
+#insira sua api_key do google no espaço abaixo:
+gemini.configure(api_key='')
 
 MODEL_CONFIG = {
     "temperature": 0.2,
@@ -53,7 +54,7 @@ model = gemini.GenerativeModel('gemini-pro-vision',generation_config=MODEL_CONFI
 system_prompt = "Você é um especialista em compreender RGs. Imagens de entrada na forma de RGs serão fornecidos a você, sua tarefa é responder a perguntas com base no conteúdo da imagem de entrada"
 
 # Carregar a imagem
-image = Image.open('RG_4.jpg')
+image = Image.open('')
 
 # Rotacionar a imagem em 90 graus para a esquerda
 image_pil = image.rotate(90, expand=True)
